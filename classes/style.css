@@ -1,0 +1,8 @@
+body{
+    display: block;
+    text-align: center;
+}
+thead{
+    background-color: grey;
+    color: wheat
+}
