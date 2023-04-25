@@ -1,8 +1,12 @@
-body{
+h1,#total{
     display: block;
     text-align: center;
 }
 thead{
+    display:table;
+    margin-left: 110%;
+    margin-top: -10%;
+    text-align: center;
     background-color: grey;
-    color: wheat
+    color: wheat;
 }

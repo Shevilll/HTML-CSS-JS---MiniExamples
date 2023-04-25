@@ -1,8 +1,10 @@
 class Student{
+    static numberofstudents = 0
     constructor(name,age,marks){
         this.name = name
         this.age = age
         this.marks = marks
+        Student.numberofstudents+=1
     }
     result(){
         if (this.marks >= 50){
@@ -22,9 +24,12 @@ class Student{
             data.appendChild(td)
         }
     }
-
 }
 
 const student1 = new Student("ABC",20,66).result();
-const student2 = new Student("XYZ",20,23).result();
+const student2 = new Student("XYZ",25,23).result();
+const student3 = new Student("QIQI",10,100).result();
 
+
+
+document.getElementById("total").innerHTML = `Total Students: ${Student.numberofstudents}`
