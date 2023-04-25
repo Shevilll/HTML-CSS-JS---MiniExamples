@@ -1,0 +1,9 @@
+body{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+}
+button{
+    font-size: 100%;
+    margin-top: 5%;
+}
