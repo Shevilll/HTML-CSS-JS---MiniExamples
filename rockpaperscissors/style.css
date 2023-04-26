@@ -1,0 +1,16 @@
+#text{
+    border: 2px solid;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: aquamarine;
+    color: red;
+}
+.button{
+    height: 25px;
+    width: 100px;
+    background-color: cadetblue;
+    color: aliceblue;
+    
+}
