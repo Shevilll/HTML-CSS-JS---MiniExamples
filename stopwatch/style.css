@@ -1,0 +1,21 @@
+.timerbutton{
+    width: 90px;
+    height: 40px;
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+#clock{
+    text-align: center;
+    height: 200px;
+    background-color: rgb(205, 255, 247);
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 75px;
+}
+body{
+    background-color: antiquewhite;
+}
