@@ -1,0 +1,18 @@
+#container{
+    text-align: center;
+}
+#board{
+    border: 3px solid;
+}
+#score{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+#reset{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 100px;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 10px;
+}
