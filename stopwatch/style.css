@@ -7,6 +7,7 @@
     border-color: brown;
     background-color: blanchedalmond;
     cursor: pointer;
+    margin-top: 10px;
 }
 #clock{
     text-align: center;
@@ -14,8 +15,19 @@
     background-color: rgb(205, 255, 247);
     border: 2px solid;
     border-radius: 5px;
-    font-size: 75px;
 }
 body{
     background-color: antiquewhite;
+}
+#timer{
+    display: block;
+    font-size: 75px;
+    margin-top: -20px;
+}
+#tick{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+
 }
